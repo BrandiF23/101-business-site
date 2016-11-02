@@ -60,23 +60,25 @@
 }
 
 .image {
-	justify-content: center;
 	width: 256px;
+	padding-bottom: 25px;
 }
 
 .decorative__img {
-	width: 135.5px;
+	width: 145.5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .title {
-	font-size: 18px;
+	font-size: 15px;
 	font-family: Arial;
 	color: #FD907A;
 }
 
 .description {
 	font-family: Arial;
-	font-size: 13.25px;
+	font-size: 12.25px;
 	color: #696969;
 }
 
