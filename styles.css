@@ -17,6 +17,18 @@
 	list-style: none;
 	margin:	0px;
 	padding: 0px;
+	font-family: 'Merriweather', serif;
+	color: #FD907A;
+	font-size: 12px;
+}
+
+.navigation a {
+	color: #FD907A;
+	text-decoration: none;
+}
+
+.naviagtion a:hover {
+	color: #191970;
 }
 
 .navigation li {
@@ -24,22 +36,92 @@
 	padding-right: 30px;
 }
 
+.navigation li--currentPage {
+	color: #191970;
+}
+
 .body {
-	background-color: 
+
 }
 
 .services-block {
-
+	display: flex;
+	justify-content: center;
+	margin-top: 75px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-bottom: 75px;
+	border-bottom: 0.063rem solid #DCDCDC;
 }
 
 .services-block__content {
+	justify-content: center;
 
 }
 
 .image {
+	justify-content: center;
 	width: 256px;
 }
 
+.decorative__img {
+	width: 135.5px;
+}
+
+.title {
+	font-size: 18px;
+	font-family: Arial;
+	color: #FD907A;
+}
+
+.description {
+	font-family: Arial;
+	font-size: 13.25px;
+	color: #696969;
+}
+
 .footer {
+	display: flex;
+	flex-direction: row;
 	background-color: #FFFAF0;
+	padding-top: 200px;
+}
+
+.footer-logo {
+	align-content: center;
+	width: 120.5px;
+}
+
+.contact-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.contact-title {
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	color: #191970;
+
+}
+
+.contact-detail {
+	font-family: Arial;
+	font-size: 13px;
+	color: #D3D3D3;
+}
+
+.privacy-policy {
+	display: flex;
+	align-items: center;
+	background-color: #FFFAF0;
+	border-top: 0.063rem solid #DCDCDC;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #D3D3D3;
+	padding: 15px 15px 15px 475px;
+/*	padding-left: 475px;*/
 }
