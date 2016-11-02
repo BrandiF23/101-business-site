@@ -1,0 +1,45 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	box-shadow: 0px 1px 25px #DCDCDC;
+}
+
+.header__logo {
+	width: 74.5px;
+	padding-left: 30px;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+	margin:	0px;
+	padding: 0px;
+}
+
+.navigation li {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.body {
+	background-color: 
+}
+
+.services-block {
+
+}
+
+.services-block__content {
+
+}
+
+.image {
+	width: 256px;
+}
+
+.footer {
+	background-color: #FFFAF0;
+}
