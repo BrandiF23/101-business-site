@@ -20,13 +20,13 @@ function active($currect_page){
 <body>
 
 	<div class="header">
-		<img src="Images/logo.png" class="header__logo">
+		<img src="Images/logo.png" class="header-logo">
 			<ul class="navigation">
-				<li><a href="homepage.php">Home</a></li>
-				<li><a href="pricing.php">Pricing</a></li>
-				<li><a href="staff.php">Masseurs</a></li>
-				<li><a href="services.php">Services</a></li>
-				<li><a href="contacts.php">Contacts</a></li>
-				<li><a href="booking.php">Book an appointment</a></li>
+				<li class="navigation__link"><a href="homepage.php">Home</a></li>
+				<li class="navigation__link"><a href="pricing.php">Pricing</a></li>
+				<li class="navigation__link"><a href="staff.php">Masseurs</a></li>
+				<li class="navigation__link"><a href="services.php">Services</a></li>
+				<li class="navigation__link"><a href="contacts.php">Contacts</a></li>
+				<li class="navigation__link"><a href="booking.php">Book an appointment</a></li>
 			</ul>
 	</div>

@@ -7,7 +7,7 @@
 	box-shadow: 0px 1px 25px #DCDCDC;
 }
 
-.header__logo {
+.header-logo {
 	width: 74.5px;
 	padding-left: 30px;
 }
@@ -31,13 +31,16 @@
 	color: #191970;
 }
 
-.navigation li {
+.navigation__link {
 	padding-left: 30px;
 	padding-right: 30px;
 }
 
-.navigation li--currentPage {
+.navigation__link--currentPage {
 	color: #191970;
+}
+
+.navigation__link--booking {
 }
 
 .body {
@@ -54,37 +57,37 @@
 	border-bottom: 0.063rem solid #DCDCDC;
 }
 
-.services-block__content {
-	justify-content: center;
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
 }
 
-.image {
+.content__image {
 	width: 256px;
 	padding-bottom: 25px;
 }
 
-.decorative__img {
+.content__decorative-img {
 	width: 145.5px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
 
-.title {
+.content__title {
 	font-size: 15px;
 	font-family: Arial;
 	color: #FD907A;
 }
 
-.description {
+.content__description {
 	font-family: Arial;
 	font-size: 12.25px;
 	color: #696969;
 }
 
 .footer {
-	display: flex;
-	flex-direction: row;
 	background-color: #FFFAF0;
 	padding-top: 200px;
 }
@@ -92,6 +95,11 @@
 .footer-logo {
 	align-content: center;
 	width: 120.5px;
+}
+
+.contacts {
+	display: flex;
+	justify-content: space-around;
 }
 
 .contact-info {
@@ -102,14 +110,14 @@
 
 }
 
-.contact-title {
+.contact-info__title {
 	font-family: 'Merriweather', serif;
 	font-size: 12px;
 	color: #191970;
 
 }
 
-.contact-detail {
+.contact-info__detail {
 	font-family: Arial;
 	font-size: 13px;
 	color: #D3D3D3;
