@@ -15,10 +15,11 @@ function active($currect_page){
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lustria|Merriweather:300,400,400i|Oswald" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 </head>
 <body>
-
+<div class="container">
 	<div class="header">
 		<img src="Images/logo.png" class="header-logo">
 			<ul class="navigation">
@@ -32,6 +33,6 @@ function active($currect_page){
 					<a class="<?php active('services.php');?>" href="services.php">Services</a></li>
 				<li class="navigation__item">
 					<a class="<?php active('contacts.php');?>" href="contacts.php">Contacts</a></li>
-				<li class="navigation__item"><a href="booking.php">Book an appointment</a></li>
+				<li><a href="booking.php" class="navigation__item--booking">Book an appointment</a></li>
 			</ul>
 	</div>
