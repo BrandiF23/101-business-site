@@ -12,35 +12,43 @@
 	padding-left: 30px;
 }
 
+.navigation a {
+/*	color: #FD907A;*/
+	text-decoration: none;
+}
+
+.navigation__link:hover {
+	color: #191970;
+}
+
+.navigation__item {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.navigation__link {
+/*	padding-left: 30px;
+	padding-right: 30px;*/
+	color: #FD907A;
+	text-decoration: none;
+}
+
+.navigation__link--currentPage {
+	color: #191970;
+	text-decoration: none;
+}
+
+.navigation__link--booking {
+}
+
 .navigation {
 	display: flex;
 	list-style: none;
 	margin:	0px;
 	padding: 0px;
 	font-family: 'Merriweather', serif;
-	color: #FD907A;
+	/*color: #FD907A;*/
 	font-size: 12px;
-}
-
-.navigation a {
-	color: #FD907A;
-	text-decoration: none;
-}
-
-.naviagtion a:hover {
-	color: #191970;
-}
-
-.navigation__link {
-	padding-left: 30px;
-	padding-right: 30px;
-}
-
-.navigation__link--currentPage {
-	color: #191970;
-}
-
-.navigation__link--booking {
+	letter-spacing: .6px;
 }
 
 .body {
@@ -54,14 +62,17 @@
 	margin-left: 40px;
 	margin-right: 40px;
 	padding-bottom: 75px;
-	border-bottom: 0.063rem solid #DCDCDC;
+	/*border-bottom: .5px solid #DCDCDC;*/
+}
+
+.services-block: first-child {
+	border-bottom: .5px solid #DCDCDC;
 }
 
 .content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 }
 
 .content__image {
@@ -85,35 +96,46 @@
 	font-family: Arial;
 	font-size: 12.25px;
 	color: #696969;
+	padding-left: 30px;
+	padding-right: 30px;
+
 }
 
 .footer {
 	background-color: #FFFAF0;
-	padding-top: 200px;
+	padding-top: 100px;
 }
 
 .footer-logo {
-	align-content: center;
 	width: 120.5px;
 }
 
 .contacts {
 	display: flex;
 	justify-content: space-around;
+	padding-bottom: 65px;
+	padding-right: 190px;
+	padding-left: 190px;
+}
+
+.contacts a {
+	color: #FD907A;
+	text-decoration: none;
 }
 
 .contact-info {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 	flex-direction: column;
 
 }
 
 .contact-info__title {
-	font-family: 'Merriweather', serif;
-	font-size: 12px;
+	font-family: 'Merriweather:300' serif;
+	font-size: 15px;
 	color: #191970;
+	letter-spacing: .3px;
 
 }
 
@@ -121,17 +143,17 @@
 	font-family: Arial;
 	font-size: 13px;
 	color: #D3D3D3;
+	padding-top: 5px;
 }
 
 .privacy-policy {
 	display: flex;
-	align-items: center;
+	justify-content: center;
 	background-color: #FFFAF0;
-	border-top: 0.063rem solid #DCDCDC;
+	border-top: .5px solid #DCDCDC;
 	font-family: Arial;
 	font-size: 10px;
 	font-weight: bold;
 	color: #D3D3D3;
-	padding: 15px 15px 15px 475px;
-/*	padding-left: 475px;*/
+	padding: 15px 0px 15px 0px;
 }

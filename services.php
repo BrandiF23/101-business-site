@@ -1,24 +1,6 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-
-	<div class="header">
-		<img src="Images/logo.png" class="header__logo">
-			<ul class="navigation">
-				<li>Home</li>
-				<li>Pricing</li>
-				<li>Masseurs</li>
-				<li>Services</li>
-				<li>Contacts</li>
-				<li>Book an appointment</li>
-			</ul>
-	</div> -->
 <?php include ('header.php'); ?>
 
+<div class="services">
 	<div class="services-block">
 		<div class="content">
 			<img src="Images/services-01.jpg" class="content__image">
@@ -88,7 +70,7 @@
 			</div>
 		</div>
 	</div>
-
+</div>
 
 <!-- <?php include ('foot.php'); ?> -->
 
