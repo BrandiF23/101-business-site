@@ -1,8 +1,9 @@
 <?php include ('header.php'); ?>
+<div class="container">
 
 <div class="salon-team">Salon's Team</div>
 
-<div class="salon-staff">
+
 	<div class="salon-staff__block">
 		
 		<div class="salon-staff__content">
@@ -78,9 +79,19 @@
 			</div>
 		</div>
 	</div>
-	</div>
+
 
 	<div class="contact-us">Contact Us
-</div>
 
+		<form class="contact-us__form">
+
+		</form>
+	</div>
+
+
+
+
+
+
+</div>
 <?php include ('footer.php'); ?>

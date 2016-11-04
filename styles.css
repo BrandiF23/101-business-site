@@ -1,8 +1,6 @@
 .container {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	width: 1200px;
 }
 
 .header {
@@ -17,7 +15,7 @@
 
 .header-logo {
 	width: 74.5px;
-	padding-left: 145px;
+	padding-left: 70px;
 }
 
 .navigation {
@@ -64,7 +62,9 @@
 	padding: 15px 40px;
 }
 
-.body {
+body {
+	margin: 0px;
+	padding: 0px;
 
 }
 
@@ -125,6 +125,7 @@
 	color: #191970;
 	font-size: 40px;
 	margin-top: 50px;
+	text-align: center;
 }
 
 .salon-staff {
@@ -134,12 +135,11 @@
 
 .salon-staff__block {
 	display: flex;
-/*	justify-content: space-between;*/
+	justify-content: space-between;
 	margin-top: 75px;
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-left: 70px;
+	margin-right: 70px;
 	padding-bottom: 75px;
-	width: 100%;
 }
 
 .salon-staff__content {
@@ -151,7 +151,7 @@
 }
 
 .salon-staff__image {
-	width: 206px;
+	width: 100%;
 }
 
 .salon-staff__name {
@@ -193,6 +193,7 @@
 	color: #191970;
 	font-size: 25px;
 	margin-top: 50px;
+	text-align: center;
 }
 .footer {
 	background-color: #FCFBF4;

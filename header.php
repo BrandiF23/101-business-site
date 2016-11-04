@@ -19,7 +19,7 @@ function active($currect_page){
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 </head>
 <body>
-<div class="container">
+
 	<div class="header">
 		<img src="Images/logo.png" class="header-logo">
 			<ul class="navigation">
