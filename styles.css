@@ -14,7 +14,7 @@
 }
 
 .header-logo {
-	width: 74.5px;
+	width: 110px;
 	padding-left: 70px;
 }
 
@@ -25,7 +25,7 @@
 	padding: 0px;
 	font-family: 'Merriweather', serif;
 	/*color: #FD907A;*/
-	font-size: 12px;
+	font-size: 14px;
 	letter-spacing: .6px;
 	padding-right: 70px;
 }
@@ -70,12 +70,15 @@ body {
 
 /*SERVICES PAGE*/
 
+.services {
+	margin-right: 70px;
+	margin-left: 70px;
+}
+
 .services-block {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 75px;
-	margin-left: 40px;
-	margin-right: 40px;
 	padding-bottom: 75px;
 	width: 100%;
 	/*border-bottom: .5px solid #DCDCDC;*/
@@ -195,6 +198,79 @@ body {
 	margin-top: 50px;
 	text-align: center;
 }
+
+.contact-us__form {
+	display: flex;
+	flex-direction: column;
+	font-family: Arial;
+	font-size: 14px;
+	color: #696969;
+	padding-top: 30px;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-bottom: 150px;
+}
+
+/*label {
+display: block;
+width: 150px;
+float: left;
+padding-left: 10px;
+}*/
+
+.contact-us__top {
+	display: flex;
+}
+
+.column {
+	width: 100%;
+}
+
+.contact-us__top-left {
+	width: 90%;
+}
+
+.contact-us__top-right {
+	width: 100%;
+}
+
+.contact-us__top-left,
+.contact-us__top-right {
+	background-color: #F0F0F0;
+	border-width: 0px;
+	height: 35px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.contact-us__email {
+	background-color: #F0F0F0;
+	border-width: 0px;
+	height: 35px;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.contact-us__message{
+	background-color: #F0F0F0;
+	border-width: 0px;
+	border-radius: 15px;
+	width: 100%;
+}
+
+.contact-us__submit {
+	font-family: Arial;
+	font-size: 14px;
+	width: 10%;
+	background-color: #FD907A;
+	color: white;
+	border-radius: 25px;
+	padding: 15px 40px;
+	border-width: 0px;
+}
+
 .footer {
 	background-color: #FCFBF4;
 	padding-top: 100px;
@@ -205,7 +281,7 @@ body {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	width: 120.5px;
+	width: 145px;
 	padding-bottom: 25px;
 }
 
@@ -245,7 +321,7 @@ body {
 
 .contact-info__detail {
 	font-family: Arial;
-	font-size: 13px;
+	font-size: 15px;
 	color: #A9A9A9;
 	padding-top: 5px;
 	line-height: 20px;

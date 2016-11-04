@@ -82,11 +82,28 @@
 
 
 	<div class="contact-us">Contact Us
+	</div>
 
 		<form class="contact-us__form">
+			<div class="contact-us__top">
+				
+				<div class="column">
+					<label>Your Name *</label><br>
+						<input class="contact-us__top-left" type="text" name="">
+				</div>
 
+				<div class="column">
+					<label>Subject</label><br>
+						<input class="contact-us__top-right" type="text" name="">
+				</div>
+			</div>
+
+			<label>Email address *</label>
+				<input class="contact-us__email" type="text" name=""><br>
+			<label>Your message *</label>
+				<p><textarea rows="15" class="contact-us__message"></textarea></p>
+			<input class="contact-us__submit" type="submit" name="Submit">
 		</form>
-	</div>
 
 
 
