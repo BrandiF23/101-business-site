@@ -32,7 +32,7 @@ function active($currect_page){
 				<li class="navigation__item">
 					<a class="<?php active('services.php');?>" href="services.php">Services</a></li>
 				<li class="navigation__item">
-					<a class="<?php active('contacts.php');?>" href="contacts.php">Contacts</a></li>
+					<a class="<?php active('contact.php');?>" href="contact.php">Contacts</a></li>
 				<li><a href="booking.php" class="navigation__item--booking">Book an appointment</a></li>
 			</ul>
 	</div>

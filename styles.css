@@ -3,6 +3,10 @@
 	flex-direction: column;
 }
 
+.container a {
+	text-decoration: none;
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -71,8 +75,8 @@ body {
 /*SERVICES PAGE*/
 
 .services {
-	margin-right: 70px;
-	margin-left: 70px;
+	margin-right: 120px;
+	margin-left: 120px;
 }
 
 .services-block {
@@ -96,28 +100,29 @@ body {
 }
 
 .content__image {
-	width: 300px;
+	width: 415px;
 	padding-bottom: 25px;
 }
 
 .content__decorative-img {
-	width: 145.5px;
+	width: 165px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
 
 .content__title {
-	font-size: 15px;
+	font-size: 18px;
 	font-family: Arial;
 	color: #FD907A;
 }
 
 .content__description {
 	font-family: Arial;
-	font-size: 12px;
+	font-size: 14px;
 	color: #696969;
 	text-align: center;
 	line-height: 20px;
+	width: 415px;
 
 }
 
@@ -211,13 +216,6 @@ body {
 	margin-bottom: 150px;
 }
 
-/*label {
-display: block;
-width: 150px;
-float: left;
-padding-left: 10px;
-}*/
-
 .contact-us__top {
 	display: flex;
 }
@@ -271,6 +269,136 @@ padding-left: 10px;
 	border-width: 0px;
 }
 
+/*CONTACTS PAGE*/
+
+.contact-wrapper {
+	display: flex;
+	align-content: space-between;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.find-us {
+	margin-top: 20px;
+	
+}
+
+.find-us__text {
+	font-family: 'Merriweather:300', serif;
+	color: #191970;
+	font-size: 25px;
+	
+}
+
+.contacts-main {
+	flex-direction: column;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 65px;
+	margin-top: 15px;
+
+}
+
+.contacts-main a {
+	color: #FD907A;
+	text-decoration: none;
+}
+
+.booking-button {
+	font-family: Arial;
+	background-color: #FD907A;
+	color: white;
+	border-radius: 25px;
+	padding: 15px 40px;
+	font-size: 15px;
+	margin-left: -30px;
+}
+
+.contact-us-page {
+	width: 50%;
+	margin-left: 40px;
+}
+
+.contact-us-page__text {
+	font-family: 'Merriweather:300', serif;
+	color: #191970;
+	font-size: 25px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.contact-us-page__form {
+	display: flex;
+	flex-direction: column;
+	font-family: Arial;
+	font-size: 14px;
+	color: #696969;
+	padding-top: 30px;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-bottom: 150px;
+}
+
+.contact-us-page__top {
+	display: flex;
+}
+
+.column {
+	width: 100%;
+}
+
+.contact-us-page__top-left {
+	width: 90%;
+}
+
+.contact-us-page__top-right {
+	width: 100%;
+}
+
+.contact-us-page__top-left,
+.contact-us-page__top-right {
+	background-color: #F0F0F0;
+	border-width: 0px;
+	height: 35px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.contact-us-page__email {
+	background-color: #F0F0F0;
+	border-width: 0px;
+	height: 35px;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.contact-us-page__message{
+	background-color: #F0F0F0;
+	border-width: 0px;
+	border-radius: 15px;
+	width: 100%;
+}
+
+.contact-us-page__submit {
+	font-family: Arial;
+	font-size: 14px;
+	width: 20%;
+	background-color: #FD907A;
+	color: white;
+	border-radius: 25px;
+	padding: 15px 40px;
+	border-width: 0px;
+	text-align: center;
+}
+
+.google-map {
+	max-width: 100%;
+}
+
+
+/*FOOTER*/
 .footer {
 	background-color: #FCFBF4;
 	padding-top: 100px;
