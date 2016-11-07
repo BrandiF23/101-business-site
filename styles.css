@@ -7,6 +7,13 @@
 	text-decoration: none;
 }
 
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*------HEADER------*/
+
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -35,7 +42,6 @@
 }
 
 .navigation a {
-/*	color: #FD907A;*/
 	text-decoration: none;
 }
 
@@ -47,9 +53,8 @@
 	padding-left: 30px;
 	padding-right: 30px;
 }
+
 .navigation__link {
-/*	padding-left: 30px;
-	padding-right: 30px;*/
 	color: #FD907A;
 	text-decoration: none;
 }
@@ -66,13 +71,8 @@
 	padding: 15px 40px;
 }
 
-body {
-	margin: 0px;
-	padding: 0px;
 
-}
-
-/*SERVICES PAGE*/
+/*-----SERVICES PAGE-----*/
 
 .services {
 	margin-right: 120px;
@@ -85,7 +85,6 @@ body {
 	margin-top: 75px;
 	padding-bottom: 75px;
 	width: 100%;
-	/*border-bottom: .5px solid #DCDCDC;*/
 }
 
 .services-block:first-child {
@@ -123,10 +122,10 @@ body {
 	text-align: center;
 	line-height: 20px;
 	width: 415px;
-
 }
 
-/*STAFF PAGE*/
+
+/*-----STAFF PAGE-----*/
 
 .salon-team {
 	font-family: 'Merriweather:300', serif;
@@ -138,7 +137,6 @@ body {
 
 .salon-staff {
 	width: 100%;
-
 }
 
 .salon-staff__block {
@@ -155,7 +153,6 @@ body {
 	flex-direction: column;
 	align-items: flex-start;
 	width: 300px;
-
 }
 
 .salon-staff__image {
@@ -188,7 +185,6 @@ body {
 
 .social-icons {
 	margin-top: 25px;
-
 }
 
 .social-icons__image {
@@ -269,39 +265,40 @@ body {
 	border-width: 0px;
 }
 
-/*CONTACTS PAGE*/
+
+/*-----CONTACTS PAGE-----*/
 
 .contact-wrapper {
 	display: flex;
-	align-content: space-between;
-	justify-content: space-around;
+	align-content: flex-start;
+	justify-content: space-between;
 	margin-top: 50px;
+	margin-right: 70px;
+	margin-left: 70px;
 }
 
 .find-us {
 	margin-top: 20px;
-	
 }
 
 .find-us__text {
 	font-family: 'Merriweather:300', serif;
 	color: #191970;
-	font-size: 25px;
-	
+	font-size: 25px;	
 }
 
 .contacts-main {
-	flex-direction: column;
-	display: flex;
-	justify-content: space-around;
-	padding-bottom: 65px;
+	padding-bottom: 45px;
 	margin-top: 15px;
-
 }
 
 .contacts-main a {
 	color: #FD907A;
 	text-decoration: none;
+}
+
+.contact-info-main {
+	margin-left: 38px;
 }
 
 .booking-button {
@@ -311,12 +308,12 @@ body {
 	border-radius: 25px;
 	padding: 15px 40px;
 	font-size: 15px;
-	margin-left: -30px;
 }
 
 .contact-us-page {
-	width: 50%;
-	margin-left: 40px;
+	width: 80%;
+	margin-right: -68px;
+	margin-top: -30px;
 }
 
 .contact-us-page__text {
@@ -398,7 +395,12 @@ body {
 }
 
 
-/*FOOTER*/
+/*-----PRICING PAGE-----*/
+
+
+
+/*-----FOOTER-----*/
+
 .footer {
 	background-color: #FCFBF4;
 	padding-top: 100px;

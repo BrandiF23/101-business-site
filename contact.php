@@ -4,13 +4,13 @@
 <div class="contact-wrapper">
 
 	<div class="find-us">
-		
+
 		<div class="find-us__text">Find Us
 		</div>
 
 		<div class="contacts-main">
 
-			<div class="contact-info">
+			<div class="contact-info-main">
 				<i class="contact-info__image | fa fa-map-o"></i>
 				<div class="contact-info__title">
 					Address:
@@ -21,7 +21,7 @@
 				</div>
 			</div>
 
-			<div class="contact-info">
+			<div class="contact-info-main">
 				<i class="contact-info__image | fa fa-phone"></i>
 				<div class="contact-info__title">
 					Call Today:
@@ -32,7 +32,7 @@
 				</div>
 			</div>
 
-			<div class="contact-info">
+			<div class="contact-info-main">
 				<i class="contact-info__image | fa fa-envelope-o"></i>
 				<div class="contact-info__title">
 					E-mail:
@@ -42,7 +42,7 @@
 				</div>
 			</div>
 					
-			<div class="contact-info">
+			<div class="contact-info-main">
 				<i class="contact-info__image | fa fa-clock-o"></i>
 				<div class="contact-info__title">
 					Opening Hours:
@@ -88,9 +88,9 @@
 
 
 </div>
-
+</div>
 <div class="google-map">
-	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:1600px;'><div id='gmap_canvas' style='height:440px;width:1600px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://diensten-vakmensen.marktplaats.nl/a/diensten-en-vakmensen/reparatie-en-onderhoud-sloten/1577921-slotenmaker-middelburg.html">Middelburg Slotenmaker</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(41.2461102,-95.93364780000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.2461102,-95.93364780000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Fiona Salon</strong><br>1258 S 13th St, Omaha, NE 68108<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:1600px;'><div id='gmap_canvas' style='height:440px;width:1600px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="https://freedirectorysubmissionsites.com/">monitored 24/7</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(41.2461102,-95.93364780000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.2461102,-95.93364780000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Fiona Salon</strong><br>1258 S 13th St, Omaha, NE 68108<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 </div>
 </div>
 <?php include ('footer.php'); ?>
