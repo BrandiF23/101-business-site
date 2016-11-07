@@ -6,61 +6,61 @@
 
 		<div class="pricing-block__service">
 			<div class="pricing-block__title">
-				Pre &amp; postnatal Massages
+				Pre &amp; postnatal<br>Massages
 			</div>
 
 			<div class="pricing-block__price">
 				$300
 			</div>
 				<div class="pricing-block__price-sub">
-					4 sessions
+					4 SESSIONS
 				</div>
 
 			<div class="pricing-block__description">
 				Our pre and postnatal massages have proven to be effective and absolutely safe, both for women and baby.
 			</div>
 
-			<a href="booking.php" class="booking-button">Book an appointment</a>
+			<a href="booking.php" class="booking-button--price">Book an appointment</a>
 		</div>
 
-		<div class="pricing-block__service">
+		<div class="pricing-block__service--special">
 
-			<div class="pricing-block__title">
-				Intensive Massage Sessions
+			<div class="pricing-block__title--special">
+				Intensive Massage<br>Sessions
 			</div>
 
-			<div class="pricing-block__price">
+			<div class="pricing-block__price--special">
 				$400
 			</div>
-				<div class="pricing-block__price-sub">
-					4 sessions
+				<div class="pricing-block__price-sub--special">
+					4 SESSIONS
 				</div>
 
-			<div class="pricing-block__description">
+			<div class="pricing-block__description--special">
 				This massage category is our most popular and for a good reason. It give you a completely refreshing experience!
 			</div>
 
-			<a href="booking.php" class="booking-button">Book an appointment</a>
+			<a href="booking.php" class="booking-button--special">Book an appointment</a>
 		</div>
 
 		<div class="pricing-block__service">
 
 			<div class="pricing-block__title">
-				Extravagant and fun-spirited
+				Extravagant and<br>fun-spirited
 			</div>
 
 			<div class="pricing-block__price">
 				$500
 			</div>
 				<div class="pricing-block__price-sub">
-					4 sessions
+					4 SESSIONS
 				</div>
 
 			<div class="pricing-block__description">
 				Try our "Hot Stones" or "Stones &amp; Sticks" massages, which are both fun and good for your overall health and wellbeing!
 			</div>
 
-			<a href="booking.php" class="booking-button">Book an appointment</a>
+			<a href="booking.php" class="booking-button--price">Book an appointment</a>
 		</div>
 
 	</div>
@@ -109,25 +109,28 @@
 	</div>
 
 	<div class="services-price-block">
-
-		<img src="??" class="service">
-		<div class="service-title">
+		<div class="services-price-block__title">
+			See a full list of our massage services here:
 		</div>
 
 		<img src="??" class="service">
 		<div class="service-title">
+			Swedish Massage
 		</div>
 
 		<img src="??" class="service">
 		<div class="service-title">
+			Deep Tissue Massage
+		</div>
+
+		<img src="??" class="service">
+		<div class="service-title">
+			Hot Stone Massage
 		</div>
 
 		<a href="services.php" class="services-button">See all Services</a>
 
 	</div>
-
-
-
 
 
 </div>

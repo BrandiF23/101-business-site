@@ -397,6 +397,188 @@ body {
 
 /*-----PRICING PAGE-----*/
 
+.pricing-wrapper {
+	margin-top: 50px;
+	margin-right: 70px;
+	margin-left: 70px;
+}
+
+.pricing-wrapper a {
+	text-decoration: none;
+}
+
+.pricing-block {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin-top: 75px;
+	padding-bottom: 75px;
+	width: 100%;
+
+}
+
+.pricing-block__service {
+	padding: 30px 30px 20px 30px;
+	margin-bottom: 30px;
+
+}
+
+.pricing-block__service--special {
+	padding: 30px 30px 20px 30px;
+	background-color: #FD907A;
+	color: white; 
+}
+
+.pricing-block__title {
+	font-family: 'Merriweather:300', serif;
+	font-size: 25px;
+	text-align: center;
+	color: #696969;
+	padding-bottom: 40px;
+}
+
+.pricing-block__title--special {
+	font-family: 'Merriweather:300', serif;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	padding-bottom: 40px;
+}
+
+.pricing-block__price {
+	font-family: Arial;
+	font-size: 60px;
+	color: #FD907A;
+	text-align: center;
+}
+
+.pricing-block__price--special {
+	font-family: Arial;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+}
+
+.pricing-block__price-sub {
+	font-family: Arial;
+	font-size: 12px;
+	color: #696969;
+	text-align: center;
+	padding-bottom: 40px;
+	letter-spacing: 2px;
+}
+
+.pricing-block__price-sub--special {
+	font-family: Arial;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	padding-bottom: 40px;
+	letter-spacing: 2px;
+}
+
+.pricing-block__description {
+	font-family: Arial;
+	font-size: 14px;
+	color: #696969;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.pricing-block__description--special {
+	font-family: Arial;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.booking-button--price {
+	font-family: Arial;
+	background-color: #FD907A;
+	color: white;
+	border-radius: 25px;
+	padding: 15px 40px;
+	font-size: 15px;
+}
+
+.booking-button--special {
+	font-family: Arial;
+	background-color: white;
+	color: #191970;
+	border-radius: 25px;
+	padding: 15px 40px;
+	font-size: 15px;
+}
+
+.callnow-block {
+
+}
+
+.callnow-block__title {
+
+}
+
+.callnow__number {
+
+}
+
+.callnow__cost {
+
+}
+
+.callnow__cost-sub {
+
+}
+
+.callnow__duration {
+
+}
+
+.comments-block {
+
+}
+
+.comments-block__header {
+
+}
+
+.comments-block__quote {
+
+}
+
+.comments-block__comment {
+
+}
+
+.comments-block__customerName {
+
+}
+
+.services-price-block {
+
+}
+
+.services-price-block__title {
+
+}
+
+.service {
+
+}
+
+.service-title {
+
+}
+
+.services-button {
+	font-family: Arial;
+	background-color: #FD907A;
+	color: white;
+	border-radius: 25px;
+	padding: 15px 40px;
+	font-size: 15px;
+}
 
 
 /*-----FOOTER-----*/
