@@ -421,8 +421,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 30px 30px 20px 30px;
+	padding: 60px 60px 20px 60px;
 	margin-bottom: 30px;
+	width: 100%;
 
 }
 
@@ -430,68 +431,77 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 30px 30px 20px 30px;
+	padding: 60px 60px 20px 60px;
 	background-color: #FD907A;
 	color: white; 
+	width: 100%;
 }
 
 .pricing-block__title {
 	font-family: 'Merriweather:300', serif;
-	font-size: 25px;
+	font-size: 30px;
 	color: #696969;
+	text-align: center;
 	padding-bottom: 40px;
+	width: 250px;
 }
 
 .pricing-block__title--special {
 	font-family: 'Merriweather:300', serif;
-	font-size: 25px;
+	font-size: 30px;
 	color: white;
+	text-align: center;
 	padding-bottom: 40px;
+	width: 250px;
 }
 
 .pricing-block__price {
 	font-family: Arial;
-	font-size: 60px;
+	font-size: 80px;
 	color: #FD907A;
 	text-align: center;
 }
 
 .pricing-block__price--special {
 	font-family: Arial;
-	font-size: 60px;
+	font-size: 80px;
 	color: white;
 }
 
 .pricing-block__price-sub {
 	font-family: Arial;
-	font-size: 12px;
+	font-size: 15px;
 	color: #696969;
 	padding-bottom: 40px;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 }
 
 .pricing-block__price-sub--special {
 	font-family: Arial;
-	font-size: 12px;
+	font-size: 15px;
 	color: white;
 	padding-bottom: 40px;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 }
 
 .pricing-block__description {
 	font-family: Arial;
-	font-size: 14px;
+	font-size: 15px;
 	color: #696969;
 	padding-bottom: 40px;
 	text-align: center;
+	width: 250px;
+	line-height: 1.5;
 }
 
 .pricing-block__description--special {
 	font-family: Arial;
-	font-size: 14px;
+	font-size: 15px;
 	color: white;
 	padding-bottom: 40px;
 	text-align: center;
+	width: 250px;
+	line-height: 1.5;
 }
 
 .booking-button--price {
@@ -521,7 +531,7 @@ body {
 
 .callnow-block__title {
 	font-family: 'Merriweather:300', serif;
-	font-size: 25px;
+	font-size: 30px;
 	color: #191970;
 }
 
@@ -529,7 +539,7 @@ body {
 	display: flex;
 	align-items: center;
 	font-family: 'Merriweather:300', serif;
-	font-size: 25px;
+	font-size: 35px;
 	color: #191970;
 	padding-top: 20px;
 }
@@ -543,21 +553,21 @@ body {
 	display: flex;
 	align-items: baseline;
 	font-family: 'Merriweather:300', serif;
-	font-size: 14px;
+	font-size: 16px;
 	color: #191970;
 	padding-top: 20px;
 }
 
 .callnow__cost-sub {
 	font-family: 'Merriweather:300', serif;
-	font-size: 25px;
+	font-size: 30px;
 	color: #191970;
 	margin-left: 10px;
 }
 
 .callnow__duration {
 	font-family: Arial;
-	font-size: 14px;
+	font-size: 16px;
 	color: #191970;
 	padding-top: 20px;
 }
@@ -589,7 +599,7 @@ body {
 	font-style: italic;
 	color: #696969;
 	text-align: center;
-	line-height: 25px;
+	line-height: 1.5;
 	padding-left: 400px;
 	padding-right: 400px;
 	padding-bottom: 30px;
@@ -602,12 +612,11 @@ body {
 	color: #A9A9A9;
 }
 
+/*-----PRICE PAGE------*/
+
 .services-price-block {
-	display: flex;
-	justify-content: space-between;
-	align-content: center;
 	margin-top: 75px;
-	margin-bottom: 75px;
+	margin-bottom: 100px;
 	margin-left: 70px;
 	margin-right: 70px;
 
@@ -615,29 +624,50 @@ body {
 
 .services-price-block__title {
 	font-family: 'Merriweather:300', serif;
-	font-size: 25px;
+	font-size: 30px;
 	color: #191970;
 	padding-bottom: 35px;
+	text-align: center;
 }
 
 .service-price-block__content {
 	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin-bottom: 50px;
 }
 
 .service-price-block__content-title {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-family: 'Merriweather:400', serif;
 	font-size: 16px;
+	color: #191970;
+}
+
+.img-cropper {
+	width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 .service-price-block__content-img {
-	width: 200px;
-	border-radius: 50%;
+	display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
 }
 
+.services-price-button {
+	display: flex;
+	justify-content: center;
+}
 
-.services-button {
+.services-price-button__link {
 	font-family: Arial;
 	background-color: #FD907A;
 	color: white;

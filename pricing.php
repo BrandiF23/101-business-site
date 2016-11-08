@@ -115,28 +115,37 @@
 	<div class="services-price-block">
 		<div class="services-price-block__title">
 			See a full list of our massage services here:
+		</div>
 	
 			<div class="service-price-block__content">
 
 				<div class="service-price-block__content-title">
-				<img class="service-price-block__content-img" src="Images/services-02.jpg">
+					<div class="img-cropper">
+						<img class="service-price-block__content-img" src="Images/index-13.jpg">
+					</div>
 					Swedish Massage
 				</div>
 
 				<div class="service-price-block__content-title">
-				<img class="service-price-block__content-img" src="Images/index-13.jpg">
+					<div class="img-cropper">
+						<img class="service-price-block__content-img" src="Images/index-13.jpg">
+					</div>
 					Deep Tissue Massage
 				</div>
 
 				<div class="service-price-block__content-title">
-				<img class="service-price-block__content-img" src="Images/index-12.jpg">
+					<div class="img-cropper">
+						<img class="service-price-block__content-img" src="Images/index-12.jpg">
+					</div>
 					Hot Stone Massage
 				</div>
 
 			</div>
 
-			<a href="services.php" class="services-button">See all Services</a>
+		<div class="services-price-button">
+			<a href="services.php" class="services-price-button__link">See all Services</a>
 		</div>
+		
 	</div>
 
 
