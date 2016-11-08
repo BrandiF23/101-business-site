@@ -6,7 +6,7 @@
 
 		<div class="pricing-block__service">
 			<div class="pricing-block__title">
-				Pre &amp; postnatal<br>Massages
+				Pre &amp; postnatal Massages
 			</div>
 
 			<div class="pricing-block__price">
@@ -26,7 +26,7 @@
 		<div class="pricing-block__service--special">
 
 			<div class="pricing-block__title--special">
-				Intensive Massage<br>Sessions
+				Intensive Massage Sessions
 			</div>
 
 			<div class="pricing-block__price--special">
@@ -46,7 +46,7 @@
 		<div class="pricing-block__service">
 
 			<div class="pricing-block__title">
-				Extravagant and<br>fun-spirited
+				Extravagant and fun-spirited
 			</div>
 
 			<div class="pricing-block__price">
@@ -73,7 +73,11 @@
 		</div>
 		
 		<div class="callnow__number">
-			555-123-2322
+			<span class="callnow__img | fa-stack fa-lg">
+  			<i class="fa fa-circle-thin fa-stack-2x"></i>
+ 			 <i class="fa fa-phone fa-stack-1x"></i>
+			</span>
+				555-123-2322
 		</div>
 
 		<div class="callnow__cost">
@@ -92,11 +96,11 @@
 
 	<div class="comments-block">
 
-		<div class="comments-block__header">
+		<div class="comments-block__title">
 			What our happy customers say:
 		</div>
 
-		<img src="Images/quote.png" class="comments-block__quote">
+		<i class="comments-block__img | fa fa-quote-right fa-3x" aria-hidden="true"></i>
 
 		<div class="comments-block__comment">
 			Men rarely acknowledge how much they love to get a massage...But I want to say, that without my afterwork Friday massage sessions here, my productivity would've been so much lower...
@@ -111,25 +115,28 @@
 	<div class="services-price-block">
 		<div class="services-price-block__title">
 			See a full list of our massage services here:
+	
+			<div class="service-price-block__content">
+
+				<div class="service-price-block__content-title">
+				<img class="service-price-block__content-img" src="Images/services-02.jpg">
+					Swedish Massage
+				</div>
+
+				<div class="service-price-block__content-title">
+				<img class="service-price-block__content-img" src="Images/index-13.jpg">
+					Deep Tissue Massage
+				</div>
+
+				<div class="service-price-block__content-title">
+				<img class="service-price-block__content-img" src="Images/index-12.jpg">
+					Hot Stone Massage
+				</div>
+
+			</div>
+
+			<a href="services.php" class="services-button">See all Services</a>
 		</div>
-
-		<img src="??" class="service">
-		<div class="service-title">
-			Swedish Massage
-		</div>
-
-		<img src="??" class="service">
-		<div class="service-title">
-			Deep Tissue Massage
-		</div>
-
-		<img src="??" class="service">
-		<div class="service-title">
-			Hot Stone Massage
-		</div>
-
-		<a href="services.php" class="services-button">See all Services</a>
-
 	</div>
 
 
