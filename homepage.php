@@ -46,45 +46,46 @@
 	</div>
 </div>
 
-<!-- <div class="homepageImg-cropper"> -->
+<div class="homepageImg-cropper">
 	<img src="Images/index-05.jpg" class="homepage-middleImg">
-<!-- </div> -->
+</div>
 
 
 <div class="services-price-block">
-	<div class="services-price-block__title">
+		<div class="services-price-block-title">
 			See a full list of our massage services here:
-	</div>
+		</div>
 	
-	<div class="service-price-block__content">
-		<div class="service-price-block__content-title">
-			<div class="img-cropper">
-				<img class="service-price-block__content-img" src="Images/index-13.jpg">
-			</div>
+		<div class="service-price-block-content">
+
+			<div class="service-price-block-content__title">
+				<div class="img-cropper">
+					<img class="service-price-block-content__img" src="Images/index-13.jpg">
+				</div>
 				Swedish Massage
-		</div>
-
-		<div class="service-price-block__content-title">
-			<div class="img-cropper">
-				<img class="service-price-block__content-img" src="Images/index-13.jpg">
 			</div>
+
+			<div class="service-price-block-content__title">
+				<div class="img-cropper">
+					<img class="service-price-block-content__img" src="Images/index-13.jpg">
+				</div>
 				Deep Tissue Massage
-		</div>
-
-		<div class="service-price-block__content-title">
-			<div class="img-cropper">
-				<img class="service-price-block__content-img" src="Images/index-12.jpg">
 			</div>
+
+			<div class="service-price-block-content__title">
+				<div class="img-cropper">
+					<img class="service-price-block-content__img" src="Images/index-12.jpg">
+				</div>
 				Hot Stone Massage
+			</div>
+
 		</div>
 
-	</div>
-
-		<div class="homepage-services-button">
-			<a href="services.php" class="homepage-services-button__link">See all Services</a>
+		<div class="services-price-button">
+			<a href="services.php" class="services-price-button__link">See all Services</a>
 		</div>
+		
 	</div>
-</div>
 
 
 
