@@ -147,7 +147,7 @@ body a {
 	line-height: 1.5;
 }
 
-.homepage-content__block--special {
+.homepage-content__block:hover {
 	background-color: #FD907A;
 	background-image: url("../Images/block-pattern.jpg");
 	background-repeat: no-repeat;
@@ -156,18 +156,13 @@ body a {
 	height: 375px;
 }
 
-.homepage-content__block-title--special {
+.homepage-content__block:hover .homepage-content__block-title {
 	color: white;
 }
 
-.homepage-content__block-img--special {
-	
-}
-
-.homepage-content__block-description--special {
+.homepage-content__block:hover .homepage-content__block-description {
 	color: white;
 }
-
 
 .homepage-middleImg {
 	background-image: url("../Images/index-05.jpg");
@@ -178,23 +173,6 @@ body a {
 	height: 300px;
 }
 
-.homepage-services-button {
-	display: flex;
-	justify-content: center;
-}
-
-.homepage-services-button__link {
-	font-family: Arial;
-	background-color: #FD907A;
-	color: white;
-	border-radius: 25px;
-	padding: 15px 40px;
-	font-size: 15px;
-}
-
-.homepage-services-button a {
-	text-decoration: none;
-}
 
 
 /*-----PRICING PAGE-----*/
@@ -440,6 +418,11 @@ body a {
 	font-size: 15px;
 }
 
+.services-price-button__link:hover {
+	background-color: #C0C0C0;
+	cursor: pointer;
+}
+
 
 
 /*-----STAFF PAGE-----*/
@@ -553,6 +536,9 @@ body a {
 	border-radius: 15px;
 	margin-bottom: 20px;
 	margin-top: 10px;
+	font-size: 16px;
+	font-family: Arial;
+	padding: 10px;
 }
 
 .contact-us__email {
@@ -562,6 +548,9 @@ body a {
 	border-radius: 15px;
 	margin-top: 10px;
 	margin-bottom: 20px;
+	font-size: 16px;
+	font-family: Arial;
+	padding: 10px;
 }
 
 .contact-us__message{
@@ -569,6 +558,9 @@ body a {
 	border-width: 0px;
 	border-radius: 15px;
 	width: 100%;
+	font-size: 16px;
+	font-family: Arial;
+	padding: 10px;
 }
 
 .contact-us__submit {
@@ -580,6 +572,11 @@ body a {
 	border-radius: 25px;
 	padding: 15px 40px;
 	border-width: 0px;
+}
+
+.contact-us__submit:hover {
+	background-color: #C0C0C0;
+	cursor: pointer;
 }
 
 

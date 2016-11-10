@@ -35,12 +35,12 @@
 		</div>
 	</div>
 
-	<div class="homepage-content__block homepage-content__block--special">
-		<div class="homepage-content__block-title homepage-content__block-title--special">
+	<div class="homepage-content__block">
+		<div class="homepage-content__block-title">
 			Flexibility
 		</div>
-		<img src="Images/index-04.png" class="homepage-content__block-img homepage-content__block-img--special">
-		<div class="homepage-content__block-description homepage-content__block-description--special">
+		<img src="Images/index-04.png" class="homepage-content__block-img">
+		<div class="homepage-content__block-description">
 			We undetsand that people rarely have time to go to the massage salon during the working day or week. So we work 24/7, on-site, and on the weekends as well!
 		</div>
 	</div>
