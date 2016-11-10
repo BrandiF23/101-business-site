@@ -46,9 +46,8 @@
 	</div>
 </div>
 
-<div class="homepageImg-cropper">
-	<img src="Images/index-05.jpg" class="homepage-middleImg">
-</div>
+<div class="homepage-middleImg"> </div>
+
 
 
 <div class="services-price-block">

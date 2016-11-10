@@ -168,16 +168,14 @@ body a {
 	color: white;
 }
 
-.homepageImg-cropper {
-	width: 100%;
-}
 
 .homepage-middleImg {
-	background-image: url("../Images/index-03.jpg");
+	background-image: url("../Images/index-05.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center bottom;
+	background-position:0px -150px;
 	width: 100%;
+	height: 300px;
 }
 
 .homepage-services-button {
