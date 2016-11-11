@@ -784,10 +784,19 @@ table {
 	cursor: pointer;
 }*/
 
+.calendar-wrapper {
+	width: 800px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 375px;
+	margin-right: 375px;
+	margin-top: 60px;
+}
+
 .calendar-block__month {
 	width: 800px;
 	height: 650px;
-	margin-top: 60px;
+	margin-top: 30px;
 	margin-left: 375px;
 	margin-right: 375px;
 	margin-bottom: 60px;
@@ -801,7 +810,7 @@ table {
 }
 
 .month__current {
-	/*text-align: center;*/
+	text-align: center;
 	padding-left: 160px;
 }
 
@@ -809,6 +818,7 @@ table {
 	color: #FB907D;
 	font-size: 20px;
 }
+
 
 .weekdays {
 	height: 55px;
@@ -824,6 +834,7 @@ table {
 	padding-top: 15px;
 	padding-left: 8px;
 	border-radius: 4px;
+	width: 103px;
 }
 
 .date-top {

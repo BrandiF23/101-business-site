@@ -1,11 +1,13 @@
 <?php include ('header.php'); ?>
 
-	<table class="calendar-block__month">
-		<tr class="month">
-			<td colspan="1" class="arrow">&lt;</td>
-			<td colspan="6" class="month__current">October 2016</td>
-			<td colspan="1" class="arrow">&gt;</td>
-		</tr>
+<div class="calendar-wrapper">
+
+			<div class="arrow">&lt;</div>
+			<div class="month">October 2016</div>
+			<div class="arrow">&gt;</div>
+</div>
+
+<table class="calendar-block__month">
 		<tr class="weekdays">
 			<td colspan="1" class="weekdays__day">Sun</td>
 			<td colspan="1" class="weekdays__day">Mon</td>
@@ -75,7 +77,7 @@
 			<td class="date__day"></td>
 			<td class="date__day"></td>
 		</tr>
-	</table>
+</table>
 
 
 <?php include ('footer.php'); ?>
