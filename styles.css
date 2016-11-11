@@ -763,6 +763,41 @@ body a {
 
 
 
+/*-----BOOKING PAGE-----*/
+
+.calendar-wrapper {
+/*	display: flex;
+	flex-direction: row;
+	justify-content: center;*/
+	width: 650px;
+	height: 800px;
+	margin-top: 60px;
+	margin-left: 425px;
+	margin-right: 425px;
+	margin-bottom: 60px;
+}
+
+.calendar-block {
+	display: flex;
+	justify-content: space-between;
+	width: 650px;
+}
+
+.calendar-block__month {
+	text-align: left;
+	width: 650px;
+	height: 800px;
+}
+
+.weekdays {
+	height: 50px;
+}
+
+
+
+
+
+
 /*-----FOOTER-----*/
 
 .footer {
