@@ -16,6 +16,15 @@ body a {
 	text-decoration: none;
 }
 
+table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 /*------HEADER------*/
 
 .header {
@@ -765,37 +774,98 @@ body a {
 
 /*-----BOOKING PAGE-----*/
 
-.calendar-wrapper {
-/*	display: flex;
-	flex-direction: row;
-	justify-content: center;*/
-	width: 650px;
-	height: 800px;
+table {
+	border-collapse: separate;
+	border-spacing: 8px;
+}
+
+/*.date-top__day, .date__day, .date__day__closed, .date__day-31:hover {
+	color: #616161;
+	cursor: pointer;
+}*/
+
+.calendar-block__month {
+	width: 800px;
+	height: 650px;
 	margin-top: 60px;
-	margin-left: 425px;
-	margin-right: 425px;
+	margin-left: 375px;
+	margin-right: 375px;
 	margin-bottom: 60px;
 }
 
-.calendar-block {
-	display: flex;
-	justify-content: space-between;
-	width: 650px;
+.month {
+	font-family: 'Arial';
+	font-size: 40px;
+	color: #616161;
+	font-weight: bold;
 }
 
-.calendar-block__month {
-	text-align: left;
-	width: 650px;
-	height: 800px;
+.month__current {
+	/*text-align: center;*/
+	padding-left: 160px;
+}
+
+.arrow {
+	color: #FB907D;
+	font-size: 20px;
 }
 
 .weekdays {
-	height: 50px;
+	height: 55px;
+	background-color: #616161;
+	color: white;
+	font-family: 'Arial';
+	font-weight: bold;
+	font-size: 20px;
 }
 
+.weekdays__day {
+	border: 0px solid white;
+	padding-top: 15px;
+	padding-left: 8px;
+	border-radius: 4px;
+}
 
+.date-top {
+	font-family: 'Arial';
+	font-weight: bold;
+	font-size: 40px;
+	color: #FB907D;
+}
 
+.date {
+	font-family: 'Arial';
+	font-weight: bold;
+	font-size: 40px;
+	color: #FB907D;
+}
 
+.date-top__day {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.date__day {
+	padding-left: 10px;
+}
+.date__day:hover {
+	color: #616161;
+	cursor: pointer;
+}
+
+.date__day-closed {
+	padding-left: 10px;
+	background-color: #E8E8E8;
+	color: #D8D8D8 ;
+	border-radius: 4px;
+
+}
+.date__day-31 {
+	padding-left: 10px;
+	background-color: #191970;
+	color: white;
+	border-radius: 4px;
+}
 
 
 /*-----FOOTER-----*/
