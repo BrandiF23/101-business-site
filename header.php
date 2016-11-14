@@ -15,7 +15,7 @@ function active($currect_page){
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Lustria|Merriweather:300,400,400i|Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Habibi|Lustria|Merriweather:300,400,400i|Oswald" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 </head>
 <body>
