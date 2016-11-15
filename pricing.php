@@ -18,7 +18,7 @@
 				Our pre and postnatal massages have proven to be effective and absolutely safe, both for women and baby.
 			</div>
 
-			<a href="booking.php" class="booking-button--price">Book an appointment</a>
+			<a href="booking.php" class="button">Book an appointment</a>
 		</div>
 
 		<div class= "pricing-block pricing-block--special">
@@ -38,7 +38,7 @@
 				This massage category is our most popular and for a good reason. It give you a completely refreshing experience!
 			</div>
 
-			<a href="booking.php" class="booking-button--special">Book an appointment</a>
+			<a href="booking.php" class="button-white">Book an appointment</a>
 		</div>
 
 		<div class="pricing-block">
@@ -58,7 +58,7 @@
 				Try our "Hot Stones" or "Stones &amp; Sticks" massages, which are both fun and good for your overall health and wellbeing!
 			</div>
 
-			<a href="booking.php" class="booking-button--price">Book an appointment</a>
+			<a href="booking.php" class="button">Book an appointment</a>
 		</div>
 
 	</div>

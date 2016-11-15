@@ -53,38 +53,38 @@
 				</div>
 			</div>
 		</div>
-		<a href="booking.php" class="booking-button">Book an appointment</a>
+		<a href="booking.php" class="button">Book an appointment</a>
 	</div>
 	
 	
-	<div class="contact-us-page">
+<div class="contact-us-page">
 
-		<div class="contact-us-page__text">Get is touch with us
-		</div>
+	<div class="contact-us-page__text">Get is touch with us
+	</div>
 
-		<form class="contact-us-page__form">
+	<form class="contact-us__form" action="mail_handler.php" method="post">
+		<div class="contact-us-page__top">
 				
-			<div class="contact-us-page__top">
-				<div class="column">
-					<label>Your Name *</label><br>
-					<input class="contact-us-page__top-left" type="text" name="">
-				</div>
-
-				<div class="column">
-					<label>Subject</label><br>
-					<input class="contact-us-page__top-right" type="text" name="">
-				</div>
+			<div class="column">
+				<label>Your Name *</label><br>
+					<input class="contact-us-page__top-left" type="text" name="first name">
 			</div>
 
-					<label>Email address *</label>
-					<input class="contact-us-page__email" type="text" name=""><br>
+			<div class="column">
+				<label>Subject</label><br>
+					<input class="contact-us-page__top-right" type="text" name="">
+			</div>
+		</div>
 
-					<label>Your message *</label>
-					<p><textarea rows="15" class="contact-us-page__message"></textarea></p>
-					<input class="contact-us-page__submit" type="submit" name="Submit">
+		<label>Email address *</label>
+			<input class="contact-us-page__email" type="text" name="email"><br>
 
-			</form>
-	</div>
+		<label>Your message *</label>
+			<p><textarea rows="15" class="contact-us-page__message"></textarea>
+			</p>
+		<input class="contact-us-page__submit" type="submit" name="Submit" value="Submit">
+	</form>
+</div>
 
 
 </div>

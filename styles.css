@@ -25,6 +25,26 @@ table, tr, th, td {
 	vertical-align: baseline;
 }
 
+
+/*-----COMPONENTS-----*/
+
+.button {
+	font-family: 'Merriweather', serif;
+	background-color: #FD907A;
+	color: white;
+	border-radius: 25px;
+	padding: 15px 40px;
+}
+
+.button-white {
+	font-family: 'Merriweather', serif;
+	background-color: white;
+	color: #191970;
+	border-radius: 25px;
+	padding: 15px 40px;
+	/*font-size: 17px;*/
+
+}
 /*------HEADER------*/
 
 .header {
@@ -75,13 +95,6 @@ table, tr, th, td {
 .navigation__link--currentPage {
 	color: #191970;
 	text-decoration: none;
-}
-
-.navigation__item--booking {
-	background-color: #FD907A;
-	color: white;
-	border-radius: 25px;
-	padding: 15px 40px;
 }
 
 
@@ -260,24 +273,6 @@ table, tr, th, td {
 	color: white;
 }
 
-.booking-button--price {
-	font-family: 'Merriweather:300', serif;
-	background-color: #FD907A;
-	color: white;
-	border-radius: 25px;
-	padding: 15px 40px;
-	font-size: 17px;
-}
-
-.booking-button--special {
-	font-family: 'Merriweather:300', serif;
-	background-color: white;
-	color: #191970;
-	border-radius: 25px;
-	padding: 15px 40px;
-	font-size: 17px;
-}
-
 .callnow-block {
 	display: flex;
 	flex-direction: column;
@@ -393,13 +388,13 @@ table, tr, th, td {
 	flex-direction: column;
 	align-items: center;
 	font-family: 'Merriweather:400', serif;
-	font-size: 16px;
+	font-size: 19px;
 	color: #191970;
 }
 
 .img-cropper {
-	width: 200px;
-    height: 200px;
+	width: 250px;
+    height: 250px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
@@ -677,15 +672,6 @@ table, tr, th, td {
 	margin-left: 38px;
 }
 
-.booking-button {
-	font-family: Arial;
-	background-color: #FD907A;
-	color: white;
-	border-radius: 25px;
-	padding: 15px 40px;
-	font-size: 15px;
-}
-
 .contact-us-page {
 	width: 80%;
 	margin-right: -68px;
@@ -764,6 +750,11 @@ table, tr, th, td {
 	padding: 15px 40px;
 	border-width: 0px;
 	text-align: center;
+}
+
+.contact-us-page__submit:hover {
+	background-color: #C0C0C0;
+	cursor: pointer;
 }
 
 .google-map {

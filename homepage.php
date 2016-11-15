@@ -59,7 +59,7 @@
 
 			<div class="service-price-block-content__title">
 				<div class="img-cropper">
-					<img class="service-price-block-content__img" src="Images/index-13.jpg">
+					<img class="service-price-block-content__img" src="Images/services-02 copy.jpg">
 				</div>
 				Swedish Massage
 			</div>
