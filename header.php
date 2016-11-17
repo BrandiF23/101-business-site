@@ -17,6 +17,7 @@ function active($currect_page){
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Habibi|Lustria|Merriweather:300,400,400i|Oswald" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<script type="text/javascript" src="script-fiona.js"></script>
 </head>
 <body>
 
