@@ -642,9 +642,9 @@ table, tr, th, td {
 }
 
 
-/*---SWEDISH POP-UP---*/
+/*---MASSAGE POP-UP---*/
 
-.swedish-background {
+.massage-background {
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -654,7 +654,7 @@ table, tr, th, td {
 	opacity: .5;
 }
 
-.swedish-body {
+.massage-body {
 	position: absolute;
 	left: 475px;
 	top: 300px;
@@ -669,13 +669,13 @@ table, tr, th, td {
 	cursor: pointer;
 }
 
-.swedish__closeButton {
+.massage__closeButton {
 	display: flex;
 	justify-content: flex-end;
 	padding: 12px 12px 0px 12px;
 }
 
-.swedish__header{
+.massage__header{
 	font-size: 25px;
 	font-family: Arial;
 	/*color: #FD907A;*/
@@ -688,14 +688,14 @@ table, tr, th, td {
 	margin-top: 15px;
 }
 
-.swedish__decorative-img {
+.massage__decorative-img {
 	width: 185px;
 	padding: 12px 12px 0px 12px;
 	padding-top: 15px;
 	padding-bottom: 25px;
 }
 
-.swedish_description {
+.massage_description {
 	font-family: Arial;
 	font-size: 16px;
 	color: #696969;
@@ -706,7 +706,7 @@ table, tr, th, td {
 	margin-top: 20px;
 }
 
-.swedish__price {
+.massage__price {
 	font-family: Arial;
 	font-size: 50px;
 	color: #FD907A;
@@ -718,7 +718,7 @@ table, tr, th, td {
 	padding-bottom: 20px;
 }
 
-.swedish__price-sub {
+.massage__price-sub {
 	font-family: Arial;
 	font-size: 15px;
 	color: #696969;
@@ -730,190 +730,7 @@ table, tr, th, td {
 	padding-bottom: 60px;
 }
 
-.swedish-hide {
-	display: none;
-}
-
-/*---TISSUE POP-UP---*/
-
-.tissue-background {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	right: 0;
-	background-color: black;
-	opacity: .5;
-}
-
-.tissue-body {
-	position: absolute;
-	left: 475px;
-	top: 300px;
-	z-index: 100;
-	background-color: white;
-	width: 40%;
-	border-radius: 10px;
-}
-
-.close-x {
-	color: #e0e0e0;
-	cursor: pointer;
-}
-
-.tissue__closeButton {
-	display: flex;
-	justify-content: flex-end;
-	padding: 12px 12px 0px 12px;
-}
-
-.tissue__header{
-	font-size: 25px;
-	font-family: Arial;
-	padding: 25px 12px 0px 12px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #FD907A;
-	color: white;
-	margin-top: 15px;
-}
-
-.tissue__decorative-img {
-	width: 185px;
-	padding: 12px 12px 0px 12px;
-	padding-top: 15px;
-	padding-bottom: 25px;
-}
-
-.tissue_description {
-	font-family: Arial;
-	font-size: 16px;
-	color: #696969;
-	text-align: center;
-	line-height: 23px;
-	margin-right: 100px;
-	margin-left: 100px;
-	margin-top: 20px;
-}
-
-.tissue__price {
-	font-family: Arial;
-	font-size: 50px;
-	color: #FD907A;
-	text-align: center;
-	line-height: 23px;
-	margin-top: 40px;
-	margin-right: 100px;
-	margin-left: 100px;
-	padding-bottom: 20px;
-}
-
-.tissue__price-sub {
-	font-family: Arial;
-	font-size: 15px;
-	color: #696969;
-	letter-spacing: 3px;
-	text-align: center;
-	margin-right: 100px;
-	margin-left: 100px;
-	padding-left: 5px;
-	padding-bottom: 60px;
-}
-
-.tissue-hide {
-	display: none;
-}
-
-
-/*---STONE POP-UP---*/
-
-.stone-background {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	right: 0;
-	background-color: black;
-	opacity: .5;
-}
-
-.stone-body {
-	position: absolute;
-	left: 475px;
-	top: 300px;
-	z-index: 100;
-	background-color: white;
-	width: 40%;
-	border-radius: 10px;
-}
-
-.close-x {
-	color: #e0e0e0;
-	cursor: pointer;
-}
-
-.stone__closeButton {
-	display: flex;
-	justify-content: flex-end;
-	padding: 12px 12px 0px 12px;
-}
-
-.stone__header{
-	font-size: 25px;
-	font-family: Arial;
-	padding: 25px 12px 0px 12px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #FD907A;
-	color: white;
-	margin-top: 15px;
-}
-
-.stone__decorative-img {
-	width: 185px;
-	padding: 12px 12px 0px 12px;
-	padding-top: 15px;
-	padding-bottom: 25px;
-}
-
-.stone_description {
-	font-family: Arial;
-	font-size: 16px;
-	color: #696969;
-	text-align: center;
-	line-height: 23px;
-	margin-right: 100px;
-	margin-left: 100px;
-	margin-top: 20px;
-}
-
-.stone__price {
-	font-family: Arial;
-	font-size: 50px;
-	color: #FD907A;
-	text-align: center;
-	line-height: 23px;
-	margin-top: 40px;
-	margin-right: 100px;
-	margin-left: 100px;
-	padding-bottom: 20px;
-}
-
-.stone__price-sub {
-	font-family: Arial;
-	font-size: 15px;
-	color: #696969;
-	letter-spacing: 3px;
-	text-align: center;
-	margin-right: 100px;
-	margin-left: 100px;
-	padding-left: 5px;
-	padding-bottom: 60px;
-}
-
-.stone-hide {
+.massage-hide {
 	display: none;
 }
 
